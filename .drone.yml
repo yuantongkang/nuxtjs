@@ -7,7 +7,6 @@ pull: always
 steps:
 - commands:
   - echo hello world
-  image: busybox
   name: build
 trigger:
   event:
