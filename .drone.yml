@@ -7,7 +7,7 @@ pull: always
 steps:
 - commands:
   - echo hello world
-  image: 084037375216.dkr.ecr.us-east-2.amazonaws.com/honda-builder
+  image: busybox
   name: build
 trigger:
   event:
