@@ -1,13 +1,11 @@
----
-clone:
-  depth: 1
 kind: pipeline
-name: busybox
-pull: always
+name: default
 steps:
-- commands:
-  - echo hello world
-  name: build
+- name: test
+  image: node
+  commands:
+  - npm install
+  - npm test
 trigger:
   event:
   - push
