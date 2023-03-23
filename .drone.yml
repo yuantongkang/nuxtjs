@@ -2,7 +2,7 @@
 clone:
   depth: 1
 kind: pipeline
-name: sid 386 build
+name: busybox
 pull: always
 steps:
 - commands:
